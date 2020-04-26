@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+}
+header img{
+    margin-top: 90px;
+}
+
+section h1{
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+section h2{
+    font-size: 25px;
+    text-align: center;
+    color: purple;
+}
+section .anchor{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+

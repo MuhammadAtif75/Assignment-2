@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.png" alt="logo.jpg" class="logo">
+    </header>
+    <div class="heading">
+        <h1>STUDENT REGISTRATION FORM</h1>
+    </div>
+
+    <section>
+
+        <div class="first-name">
+            <p>FIRST NAME</p>
+            <div class="con">
+                <input type="text" placeholder="Enter first name">
+            </div>
+            <div class="info">
+                <p>(max 30 characters a-z and A-Z)</p>
+            </div>
+        </div>
+
+        <div class="last-name">
+            <p>LAST NAME</p>
+            <div class="con">
+                <input type="text" placeholder="Enter Last name">
+            </div>
+            <div class="info">
+                <p>(max 30 characters a-z and A-Z)</p>
+            </div>
+        </div>
+
+        <div class="birth-date">
+            <p>DATE OF BIRTH</p>
+            <div class="con">
+                <select id="day">
+                    <option value="day">Day</option>
+                </select>
+                <select id="month">
+                    <option value="month">Month</option>
+                </select>
+                <select id="year">
+                    <option value="year">Year</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="email-id">
+            <p>EMAIL ID</p>
+            <div class="con">
+                <input type="text" placeholder="Enter Email address">
+            </div>
+        </div>
+
+        <div class="mobile-no">
+            <p>MOBILE NUMBER</p>
+            <div class="con">
+                <input type="text" placeholder="Enter mobile number">
+            </div>
+            <div class="info">
+                <p>(10 digit number)</p>
+            </div>
+        </div>
+
+        <div class="gender">
+            <p>GENDER</p>
+            <div class="con">
+
+                <p class="male">Male</p>
+                <input type="radio">
+
+                <p>Female</p>
+                <input type="radio">
+            </div>
+        </div>
+
+        <div class="address">
+            <p>ADDRESS</p>
+            <div class="con">
+                <textarea></textarea>
+            </div>
+        </div>
+
+        <div class="city">
+            <p>CITY</p>
+            <div class="con">
+                <input type="text" placeholder="Enter city name">
+            </div>
+            <div class="info">
+                <p>(max 30 characters a-z and A-Z)</p>
+            </div>
+        </div>
+
+        <div class="pin-code">
+            <p>PIN CODE</p>
+            <div class="con">
+                <input type="number" placeholder="Enter pincode">
+            </div>
+            <div class="info">
+                <p>(6 digit number)</p>
+            </div>
+        </div>
+
+        <div class="state">
+            <p>STATE</p>
+            <div class="con">
+                <input type="text" placeholder="Enter State">
+            </div>
+            <div class="info">
+                <p>(max 30 characters a-z and A-Z)</p>
+            </div>
+        </div>
+
+        <div class="country">
+            <p>COUNTRY</p>
+            <div class="con">
+                <input type="text" placeholder="Enter country">
+            </div>
+        </div>
+
+        <div class="qualification">
+            <p>QUALIFICATION</p>
+
+            <table>
+                <tr class="con1">
+                    <th>SI.No Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of passing</th>
+                </tr>
+                <tr>
+                    <td>1 ClassX</td>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <td>2 ClassXII</tds>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <td>3 Graduation</td>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <td>4 Masters</td>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>(10 char max)</th>
+                    <th>(upto 2 decimal)</th>
+                    <th></th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="course">
+            <p>COURSES APPLIED FOR</p>
+            <div class="con">
+                <p class="c1">BCA</p>
+                <input type="radio" class="r1">
+
+                <p class="c1">B.Com</p>
+                <input type="radio" class="r1">
+
+                <p class="c1">B.Sc</p>
+                <input type="radio" class="r1">
+
+                <p class="c1">B.A</p>
+                <input type="radio" class="r1">
+            </div>
+        </div>
+
+        <div class="hobbies">
+            <p>HOBBIES</p>
+            <div class="con">
+                <p class="draw">Drawing</p>
+                <input type="checkbox">
+
+                <p class="sing">Singing</p>
+                <input type="checkbox">
+
+                <p class="dance">Dancing</p>
+                <input type="checkbox">
+
+                <p class="sketch">Sketching</p>
+                <input type="checkbox">
+
+                <p class="other">Others</p>
+                <input type="checkbox">
+                <input type="text" class="text">
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <a href="sucess page/index.html"><input type="button" value="Submit"></a>
+        <input type="button" value="Reset">
+    </footer>
+
+</body>
+
+</html>
